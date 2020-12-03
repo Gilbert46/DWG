@@ -1,0 +1,187 @@
+*{
+    padding:0.01%;
+    margin: 0.01%;
+}
+body{
+    padding: 1%;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    text-align: center;
+    background: gray;
+    color: whitesmoke;
+    font-size: 150%;
+}
+#dis{
+    margin-right: 2%;
+}
+#dis:hover{
+    background: #ffffff;
+}
+section{
+    background: #ffa;
+    padding: 3%;
+    text-align: center;
+
+}
+#visor{
+    border: 5px solid grey;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75);
+}
+#img{
+    display: inline-block;
+    margin-left: 2%;
+    border: 3px solid #aa7;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75); 
+}
+#img:hover{
+    border: 3px solid black;
+    
+}
+#botons{
+    text-align: right;
+}
+#con1, #con2, #sor, #com {
+    display:inline-block;
+    margin-left: 0.5%;
+    border: 5px solid whitesmoke;
+}
+#con1:hover, #con2:hover, #sor:hover, #com:hover {
+    background: grey;
+    border: 5px solid grey;
+}
+#com {
+    display:inline-block;
+    margin-left: 0.5%;
+    border: 5px solid #ffa;    
+}
+#com:hover {
+    background: grey;
+    border: 5px solid grey;
+}
+footer{
+    
+    height: 8%;
+    background: whitesmoke;
+}
+#flotar{
+    text-align: right;
+}
+#mapa{
+    margin: 5% auto;
+    width: 80%;
+    height: 45%;
+    background: grey;
+    padding: 2%;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75); 
+}
+form{
+    margin: 2% auto;   
+    padding: 2%;
+    background: whitesmoke;
+    width: 50%;   
+}
+#etiqueta{
+    text-align: right;
+    color: grey;
+}
+#eti2{
+    text-align: left;
+    color: grey;
+}
+#comentari{
+    width: 100%;
+}
+#cog, #ema, #adre{
+    width: 78%;
+}
+#ingressar, input, textarea{
+    background: #ffffff;
+    color: #111111;
+    border: 3px solid #888;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75);  
+}
+#ingressar:hover, input:hover, textarea:hover {
+    background: #333333;
+    color: yellow;
+}
+#download{
+    display: inline-blocK;
+    margin-left: 1%;
+    text-decoration: none;
+}
+#download:hover {
+    text-decoration:underline;
+    color:navy;
+}
+#calc{
+    display:block;
+    background: #ffa; 
+}
+#fila{
+    display:flex;
+    margin:1px auto;
+}
+ #pantalla{
+    height: 78%;
+    width: 96%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 65px;
+    background-color: #222;
+    color:white;
+    border:5px solid #141;
+}
+.caseta{
+    height:130px;
+    width:150%;
+    font-size:100px;
+    text-align: center;
+    border:2px solid #000;
+    color:#151;
+    background-color: #aaa;
+}
+.caseta1{
+    height:130px;
+    width:150%;
+    font-size:60px;
+    text-align: center;
+    border:2px solid #000;
+    color:#151;
+    background-color: #aaa;
+}
+.caseta:hover, .caseta1:hover{
+    color:yellow;
+    background-color:#444;
+}
+.casetes3{
+    height: 130px;
+    width: 466%;
+    border:2px solid #000;
+    background-color: #aaa;
+}
+/* media query per pantalles inferiors a 650 px */
+@media only screen and (max-width: 1020px) {
+    .caseta{
+        height: 65px;
+        width: 75%;
+        font-size: 30px;
+    }
+    .caseta1{
+        height: 65px;
+        width: 75%;
+        font-size: 30px;
+    }
+    .casetes3{
+        height: 65px;
+        width: 233%;
+    }
+    #pantalla{
+        height: 82%;
+        width: 96%;
+        font-size: 32px;
+        margin: 10px auto;
+    }
+
+}
