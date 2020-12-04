@@ -93,7 +93,10 @@ form{
 #comentari{
     width: 100%;
 }
-#cog, #ema, #adre{
+#nom, #ema, #adre, #cp{
+    width: 82%;
+}
+#cog{
     width: 78%;
 }
 #ingressar, input, textarea{
@@ -162,26 +165,40 @@ form{
     background-color: #aaa;
 }
 /* media query per pantalles inferiors a 650 px */
-@media only screen and (max-width: 1020px) {
-    .caseta{
+@media only screen and (max-width: 819px) {
+    .caseta, .caseta1{
         height: 65px;
-        width: 75%;
-        font-size: 30px;
-    }
-    .caseta1{
-        height: 65px;
-        width: 75%;
-        font-size: 30px;
+        width: 72%;
+        font-size: 25px;
     }
     .casetes3{
         height: 65px;
-        width: 233%;
+        width: 243%;
     }
     #pantalla{
         height: 82%;
         width: 96%;
-        font-size: 32px;
+        font-size: 27px;
         margin: 10px auto;
     }
-
 }
+@media only screen and (min-width: 820px) and (max-width: 1020px){
+    .caseta, .caseta1{
+        height: 98px;
+        width: 112%;
+        font-size: 45px;
+    }
+    .casetes3{
+        height: 98px;
+        width: 375%;
+    }
+    #pantalla{
+        height: 82%;
+        width: 96%;
+        font-size: 48px;
+        margin: 5px auto;
+    }
+}
+
+
+
