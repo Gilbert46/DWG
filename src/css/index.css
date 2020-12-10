@@ -164,6 +164,15 @@ form{
     border:2px solid #000;
     background-color: #aaa;
 }
+#linking{
+    float: left;
+    color: black;
+    margin-right: 2%;
+}
+#links{
+    text-align: center;
+    text-decoration: underline;
+}
 /* media query per pantalles inferiors a 650 px */
 @media only screen and (max-width: 819px) {
     .caseta, .caseta1{
