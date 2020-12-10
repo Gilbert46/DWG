@@ -114,7 +114,7 @@ function dismin() {
 }
 function visual() {
     document.getElementById("visor").hidden=false;
-    contanidor = '<div id=botons><a id="con1" onclick="dismin()"><img src="src/img/lup1.png" height="60" alt=""/></a><a id="con2" onclick="augment()"><img src="src/img/lup2.png" height="60" alt=""/></a><a id="con1" onclick="enrerre()"><img src="src/img/enrer.png" height="60" alt=""/></a><a id="con2" onclick="endavant()"><img src="src/img/endav.png" height="60" alt=""/></a><a id="sor" onclick="surt()"><img src="src/img/Sortir.png" height="60" alt=""/></a></div>';
+    contanidor = '<div id=botons><a id="con1" onclick="dismin()"><img src="src/img/lup1.png" height="60" alt=""/></a><a id="con2" onclick="augment()"><img src="src/img/lup2.png" height="60" alt=""/></a><a id="con1" onclick="enrerre()"><img src="src/img/enrer.png" height="60" alt=""/></a><a id="con2" onclick="endavant()"><img src="src/img/endav.png" height="60" alt=""/></a><a id="sor" onclick="surt()"><img src="src/img/sortir.png" height="60" alt=""/></a></div>';
     if (control==9 || control==11) contanidor += "<img src='src/img/"+control+".png' width='"+augme+"%' alt=''>";
     else if (control==20) contanidor += "<img src='src/img/"+control+".gif' width='75%' alt=''>";
     else if ((control>5 && control<13) || control==19) contanidor += "<img src='src/img/"+control+".png' width='"+ample+"%' alt=''>";
